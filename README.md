@@ -1,6 +1,6 @@
 # AI-Testcase-Generation
 
-Applying the **3Cs (Context, Clarity, Conclusion)** with **Role, Functionality, Constraints, Format & Prioritization**.  
+Applying the **3Cs (Context, Clarity, Constraints)** with **Role, Functionality, Constraints, Format & Prioritization**.  
 Zero-Shot prompting provides no examples, while One-Shot and Few-Shot build on top of it to improve structure and consistency.
 
 ---
