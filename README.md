@@ -1,3 +1,22 @@
+# AI-Testcase-Generation
+
+Applying the **3Cs (Context, Clarity, Conclusion)** with **Role, Functionality, Constraints, Format & Prioritization**.  
+Zero-Shot prompting provides no examples, while One-Shot and Few-Shot build on top of it to improve structure and consistency.
+
+---
+
+## Prompting Styles at a Glance
+
+| Style              | Description | Example Usage |
+|--------------------|-------------|---------------|
+| **Zero-Shot**      | No examples provided. AI generates test cases directly from instructions. | "Generate test cases for appointment booking with constraints." |
+| **One-Shot**       | One example given to guide AI output. | Provide 1 sample test case, then ask AI to continue. |
+| **Few-Shot**       | Multiple examples for different scenarios/features. | Show booking + double-booking examples, then ask AI to extend. |
+| **Chain-of-Thought** | AI explains reasoning step-by-step before giving final structured test cases. | Useful for complex flows (e.g., conflict resolution in scheduling). |
+
+---
+
+
 # AI Prompting Demo for Test Case Generation
 
 This repository demonstrates how **Zero-Shot, One-Shot, and Few-Shot prompting** can be used to generate test cases for a healthcare site’s **Appointment Booking module**.
